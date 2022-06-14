@@ -1,0 +1,30 @@
+.pomo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    .content{
+        margin-top: 50px;
+        background-color: rgb(218, 97, 93);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 500px;
+        h3{
+            color: white;
+        }
+        .buttons{
+            display: flex;
+            gap: 30px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            
+
+        }
+    }
+    span{
+        font-size:120px;
+        font-weight: bold;
+        color:white;
+        flex-direction: column;
+    }
+}
